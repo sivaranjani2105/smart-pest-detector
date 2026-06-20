@@ -1,0 +1,1124 @@
+[
+  {
+    "node_id": "node_3",
+    "timestamp": 1781974254.5675879,
+    "battery_pct": 77.7,
+    "solar_charging": false,
+    "soil_moisture": 24.3
+  },
+  {
+    "node_id": "node_4",
+    "timestamp": 1781974254.5675879,
+    "battery_pct": 60.1,
+    "solar_charging": true,
+    "temperature": 28.5,
+    "humidity": 55.2
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974254.5675879,
+    "battery_pct": 3.9,
+    "solar_charging": false,
+    "soil_moisture": 41.1
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974254.5675879,
+    "battery_pct": 95.4,
+    "solar_charging": true,
+    "soil_moisture": 33.3
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974254.5675879,
+    "battery_pct": 88.3,
+    "solar_charging": true,
+    "soil_moisture": 28.1
+  },
+  {
+    "node_id": "node_1",
+    "timestamp": 1781974254.5867302,
+    "battery_pct": 85.2,
+    "solar_charging": true,
+    "soil_moisture": 37.2
+  },
+  {
+    "node_id": "node_2",
+    "timestamp": 1781974254.5867302,
+    "battery_pct": 92.1,
+    "solar_charging": true,
+    "soil_moisture": 31.4
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974254.5867302,
+    "battery_pct": 3.6,
+    "solar_charging": false,
+    "soil_moisture": 40.5
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974254.5867302,
+    "battery_pct": 95.6,
+    "solar_charging": true,
+    "soil_moisture": 33.0
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974254.5867302,
+    "battery_pct": 91.4,
+    "solar_charging": true,
+    "temperature": 29.2,
+    "humidity": 51.6
+  },
+  {
+    "node_id": "node_9",
+    "timestamp": 1781974254.5867302,
+    "battery_pct": 82.4,
+    "solar_charging": true,
+    "soil_moisture": 44.4
+  },
+  {
+    "node_id": "node_1",
+    "timestamp": 1781974257.5700073,
+    "battery_pct": 85.4,
+    "solar_charging": true,
+    "soil_moisture": 38.0
+  },
+  {
+    "node_id": "node_3",
+    "timestamp": 1781974257.5700073,
+    "battery_pct": 77.5,
+    "solar_charging": false,
+    "soil_moisture": 23.7
+  },
+  {
+    "node_id": "node_4",
+    "timestamp": 1781974257.5700073,
+    "battery_pct": 60.3,
+    "solar_charging": true,
+    "temperature": 28.7,
+    "humidity": 54.8
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974257.5700073,
+    "battery_pct": 95.8,
+    "solar_charging": true,
+    "soil_moisture": 32.1
+  },
+  {
+    "node_id": "node_9",
+    "timestamp": 1781974257.5700073,
+    "battery_pct": 82.7,
+    "solar_charging": true,
+    "soil_moisture": 44.1
+  },
+  {
+    "node_id": "node_1",
+    "timestamp": 1781974257.5906641,
+    "battery_pct": 85.7,
+    "solar_charging": true,
+    "soil_moisture": 38.1
+  },
+  {
+    "node_id": "node_3",
+    "timestamp": 1781974257.5906641,
+    "battery_pct": 77.4,
+    "solar_charging": false,
+    "soil_moisture": 23.7
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974257.5906641,
+    "battery_pct": 88.7,
+    "solar_charging": true,
+    "soil_moisture": 28.6
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974257.5906641,
+    "battery_pct": 91.7,
+    "solar_charging": true,
+    "temperature": 29.4,
+    "humidity": 51.2
+  },
+  {
+    "node_id": "node_1",
+    "timestamp": 1781974260.5718145,
+    "battery_pct": 85.9,
+    "solar_charging": true,
+    "soil_moisture": 37.3
+  },
+  {
+    "node_id": "node_2",
+    "timestamp": 1781974260.5718145,
+    "battery_pct": 92.5,
+    "solar_charging": true,
+    "soil_moisture": 31.1
+  },
+  {
+    "node_id": "node_3",
+    "timestamp": 1781974260.5718145,
+    "battery_pct": 77.1,
+    "solar_charging": false,
+    "soil_moisture": 24.2
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974260.5718145,
+    "battery_pct": 96.1,
+    "solar_charging": true,
+    "soil_moisture": 32.9
+  },
+  {
+    "node_id": "node_4",
+    "timestamp": 1781974260.5928311,
+    "battery_pct": 60.6,
+    "solar_charging": true,
+    "temperature": 28.9,
+    "humidity": 54.4
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974260.5928311,
+    "battery_pct": 3.4,
+    "solar_charging": false,
+    "soil_moisture": 39.9
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974260.5928311,
+    "battery_pct": 96.2,
+    "solar_charging": true,
+    "soil_moisture": 32.5
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974260.5928311,
+    "battery_pct": 88.8,
+    "solar_charging": true,
+    "soil_moisture": 29.0
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974260.5928311,
+    "battery_pct": 92.0,
+    "solar_charging": true,
+    "temperature": 29.1,
+    "humidity": 50.9
+  },
+  {
+    "node_id": "node_9",
+    "timestamp": 1781974260.5928311,
+    "battery_pct": 83.0,
+    "solar_charging": true,
+    "soil_moisture": 43.9
+  },
+  {
+    "node_id": "node_2",
+    "timestamp": 1781974263.5744853,
+    "battery_pct": 92.6,
+    "solar_charging": true,
+    "soil_moisture": 30.6
+  },
+  {
+    "node_id": "node_9",
+    "timestamp": 1781974263.5744853,
+    "battery_pct": 83.1,
+    "solar_charging": true,
+    "soil_moisture": 43.4
+  },
+  {
+    "node_id": "node_2",
+    "timestamp": 1781974263.5954678,
+    "battery_pct": 92.9,
+    "solar_charging": true,
+    "soil_moisture": 30.3
+  },
+  {
+    "node_id": "node_4",
+    "timestamp": 1781974263.5954678,
+    "battery_pct": 60.7,
+    "solar_charging": true,
+    "temperature": 28.9,
+    "humidity": 54.4
+  },
+  {
+    "node_id": "node_2",
+    "timestamp": 1781974266.576155,
+    "battery_pct": 93.1,
+    "solar_charging": true,
+    "soil_moisture": 30.6
+  },
+  {
+    "node_id": "node_4",
+    "timestamp": 1781974266.576155,
+    "battery_pct": 60.9,
+    "solar_charging": true,
+    "temperature": 29.1,
+    "humidity": 54.4
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974266.576155,
+    "battery_pct": 92.1,
+    "solar_charging": true,
+    "temperature": 29.2,
+    "humidity": 51.4
+  },
+  {
+    "node_id": "node_4",
+    "timestamp": 1781974266.5985374,
+    "battery_pct": 61.1,
+    "solar_charging": true,
+    "temperature": 29.1,
+    "humidity": 54.6
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974266.5985374,
+    "battery_pct": 3.1,
+    "solar_charging": false,
+    "soil_moisture": 39.7
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974266.5985374,
+    "battery_pct": 96.5,
+    "solar_charging": true,
+    "soil_moisture": 32.3
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974266.5985374,
+    "battery_pct": 92.4,
+    "solar_charging": true,
+    "temperature": 29.5,
+    "humidity": 51.8
+  },
+  {
+    "node_id": "node_9",
+    "timestamp": 1781974266.5985374,
+    "battery_pct": 83.4,
+    "solar_charging": true,
+    "soil_moisture": 42.8
+  },
+  {
+    "node_id": "node_1",
+    "timestamp": 1781974269.577995,
+    "battery_pct": 86.1,
+    "solar_charging": true,
+    "soil_moisture": 37.7
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974269.577995,
+    "battery_pct": 3.0,
+    "solar_charging": false,
+    "soil_moisture": 38.8
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974269.577995,
+    "battery_pct": 88.9,
+    "solar_charging": true,
+    "soil_moisture": 29.4
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974269.577995,
+    "battery_pct": 92.8,
+    "solar_charging": true,
+    "temperature": 29.4,
+    "humidity": 52.1
+  },
+  {
+    "node_id": "node_9",
+    "timestamp": 1781974269.577995,
+    "battery_pct": 83.7,
+    "solar_charging": true,
+    "soil_moisture": 42.2
+  },
+  {
+    "node_id": "node_2",
+    "timestamp": 1781974269.6021416,
+    "battery_pct": 93.4,
+    "solar_charging": true,
+    "soil_moisture": 29.7
+  },
+  {
+    "node_id": "node_4",
+    "timestamp": 1781974269.6021416,
+    "battery_pct": 61.3,
+    "solar_charging": true,
+    "temperature": 29.0,
+    "humidity": 54.9
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974269.6021416,
+    "battery_pct": 2.9,
+    "solar_charging": false,
+    "soil_moisture": 38.5
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974269.6021416,
+    "battery_pct": 89.2,
+    "solar_charging": true,
+    "soil_moisture": 28.7
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974269.6021416,
+    "battery_pct": 93.1,
+    "solar_charging": true,
+    "temperature": 29.6,
+    "humidity": 52.4
+  },
+  {
+    "node_id": "node_9",
+    "timestamp": 1781974269.6021416,
+    "battery_pct": 83.9,
+    "solar_charging": true,
+    "soil_moisture": 43.2
+  },
+  {
+    "node_id": "node_2",
+    "timestamp": 1781974271.8997002,
+    "battery_pct": 93.7,
+    "solar_charging": true,
+    "soil_moisture": 30.1
+  },
+  {
+    "node_id": "node_3",
+    "timestamp": 1781974271.8997002,
+    "battery_pct": 76.9,
+    "solar_charging": false,
+    "soil_moisture": 23.5
+  },
+  {
+    "node_id": "node_4",
+    "timestamp": 1781974271.8997002,
+    "battery_pct": 61.4,
+    "solar_charging": true,
+    "temperature": 29.2,
+    "humidity": 54.8
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974271.8997002,
+    "battery_pct": 2.7,
+    "solar_charging": false,
+    "soil_moisture": 37.9
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974271.8997002,
+    "battery_pct": 96.9,
+    "solar_charging": true,
+    "soil_moisture": 33.0
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974271.8997002,
+    "battery_pct": 89.3,
+    "solar_charging": true,
+    "soil_moisture": 28.4
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974271.8997002,
+    "battery_pct": 93.2,
+    "solar_charging": true,
+    "temperature": 29.5,
+    "humidity": 52.9
+  },
+  {
+    "node_id": "node_9",
+    "timestamp": 1781974271.8997002,
+    "battery_pct": 84.3,
+    "solar_charging": true,
+    "soil_moisture": 43.6
+  },
+  {
+    "node_id": "node_3",
+    "timestamp": 1781974271.9213343,
+    "battery_pct": 76.7,
+    "solar_charging": false,
+    "soil_moisture": 22.8
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974271.9213343,
+    "battery_pct": 97.1,
+    "solar_charging": true,
+    "soil_moisture": 32.7
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974271.9213343,
+    "battery_pct": 89.4,
+    "solar_charging": true,
+    "soil_moisture": 28.3
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974271.9213343,
+    "battery_pct": 93.4,
+    "solar_charging": true,
+    "temperature": 29.5,
+    "humidity": 53.1
+  },
+  {
+    "node_id": "node_9",
+    "timestamp": 1781974271.9213343,
+    "battery_pct": 84.4,
+    "solar_charging": true,
+    "soil_moisture": 43.9
+  },
+  {
+    "node_id": "node_3",
+    "timestamp": 1781974272.2343547,
+    "battery_pct": 76.5,
+    "solar_charging": false,
+    "soil_moisture": 23.7
+  },
+  {
+    "node_id": "node_4",
+    "timestamp": 1781974272.2343547,
+    "battery_pct": 61.6,
+    "solar_charging": true,
+    "temperature": 28.9,
+    "humidity": 54.7
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974272.2343547,
+    "battery_pct": 2.5,
+    "solar_charging": false,
+    "soil_moisture": 37.3
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974272.2343547,
+    "battery_pct": 89.7,
+    "solar_charging": true,
+    "soil_moisture": 27.8
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974272.2343547,
+    "battery_pct": 93.7,
+    "solar_charging": true,
+    "temperature": 29.5,
+    "humidity": 53.5
+  },
+  {
+    "node_id": "node_9",
+    "timestamp": 1781974272.2343547,
+    "battery_pct": 84.5,
+    "solar_charging": true,
+    "soil_moisture": 43.2
+  },
+  {
+    "node_id": "node_2",
+    "timestamp": 1781974272.2561347,
+    "battery_pct": 93.9,
+    "solar_charging": true,
+    "soil_moisture": 30.2
+  },
+  {
+    "node_id": "node_3",
+    "timestamp": 1781974272.2561347,
+    "battery_pct": 76.3,
+    "solar_charging": false,
+    "soil_moisture": 23.4
+  },
+  {
+    "node_id": "node_4",
+    "timestamp": 1781974272.2561347,
+    "battery_pct": 61.9,
+    "solar_charging": true,
+    "temperature": 28.7,
+    "humidity": 54.4
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974272.2561347,
+    "battery_pct": 2.3,
+    "solar_charging": false,
+    "soil_moisture": 37.5
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974272.2561347,
+    "battery_pct": 89.9,
+    "solar_charging": true,
+    "soil_moisture": 27.3
+  },
+  {
+    "node_id": "node_1",
+    "timestamp": 1781974272.3341775,
+    "battery_pct": 86.2,
+    "solar_charging": true,
+    "soil_moisture": 37.0
+  },
+  {
+    "node_id": "node_3",
+    "timestamp": 1781974272.3341775,
+    "battery_pct": 76.1,
+    "solar_charging": false,
+    "soil_moisture": 22.8
+  },
+  {
+    "node_id": "node_4",
+    "timestamp": 1781974272.3341775,
+    "battery_pct": 62.2,
+    "solar_charging": true,
+    "temperature": 28.5,
+    "humidity": 54.4
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974272.3341775,
+    "battery_pct": 97.3,
+    "solar_charging": true,
+    "soil_moisture": 33.2
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974272.3341775,
+    "battery_pct": 90.2,
+    "solar_charging": true,
+    "soil_moisture": 26.9
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974272.3341775,
+    "battery_pct": 93.9,
+    "solar_charging": true,
+    "temperature": 29.5,
+    "humidity": 53.4
+  },
+  {
+    "node_id": "node_9",
+    "timestamp": 1781974272.3341775,
+    "battery_pct": 84.7,
+    "solar_charging": true,
+    "soil_moisture": 43.0
+  },
+  {
+    "node_id": "node_4",
+    "timestamp": 1781974296.4167542,
+    "battery_pct": 60.2,
+    "solar_charging": true,
+    "temperature": 28.7,
+    "humidity": 54.7
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974296.4167542,
+    "battery_pct": 88.3,
+    "solar_charging": true,
+    "soil_moisture": 28.4
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974296.4167542,
+    "battery_pct": 91.3,
+    "solar_charging": true,
+    "temperature": 29.3,
+    "humidity": 51.8
+  },
+  {
+    "node_id": "node_9",
+    "timestamp": 1781974296.4167542,
+    "battery_pct": 82.4,
+    "solar_charging": true,
+    "soil_moisture": 45.9
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974296.4393091,
+    "battery_pct": 3.8,
+    "solar_charging": false,
+    "soil_moisture": 40.4
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974296.4393091,
+    "battery_pct": 88.7,
+    "solar_charging": true,
+    "soil_moisture": 29.3
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974296.4393091,
+    "battery_pct": 91.5,
+    "solar_charging": true,
+    "temperature": 29.3,
+    "humidity": 52.2
+  },
+  {
+    "node_id": "node_9",
+    "timestamp": 1781974296.4393091,
+    "battery_pct": 82.6,
+    "solar_charging": true,
+    "soil_moisture": 46.5
+  },
+  {
+    "node_id": "node_2",
+    "timestamp": 1781974299.4202929,
+    "battery_pct": 92.4,
+    "solar_charging": true,
+    "soil_moisture": 32.7
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974299.4202929,
+    "battery_pct": 3.6,
+    "solar_charging": false,
+    "soil_moisture": 39.5
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974299.4202929,
+    "battery_pct": 95.3,
+    "solar_charging": true,
+    "soil_moisture": 34.4
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974299.4202929,
+    "battery_pct": 89.0,
+    "solar_charging": true,
+    "soil_moisture": 28.6
+  },
+  {
+    "node_id": "node_1",
+    "timestamp": 1781974299.4422305,
+    "battery_pct": 85.4,
+    "solar_charging": true,
+    "soil_moisture": 37.1
+  },
+  {
+    "node_id": "node_3",
+    "timestamp": 1781974299.4422305,
+    "battery_pct": 77.7,
+    "solar_charging": false,
+    "soil_moisture": 24.3
+  },
+  {
+    "node_id": "node_4",
+    "timestamp": 1781974299.4422305,
+    "battery_pct": 60.4,
+    "solar_charging": true,
+    "temperature": 28.6,
+    "humidity": 54.4
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974299.4422305,
+    "battery_pct": 91.8,
+    "solar_charging": true,
+    "temperature": 29.2,
+    "humidity": 52.1
+  },
+  {
+    "node_id": "node_1",
+    "timestamp": 1781974302.4227242,
+    "battery_pct": 85.7,
+    "solar_charging": true,
+    "soil_moisture": 36.5
+  },
+  {
+    "node_id": "node_2",
+    "timestamp": 1781974302.4227242,
+    "battery_pct": 92.7,
+    "solar_charging": true,
+    "soil_moisture": 32.6
+  },
+  {
+    "node_id": "node_3",
+    "timestamp": 1781974302.4227242,
+    "battery_pct": 77.5,
+    "solar_charging": false,
+    "soil_moisture": 24.2
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974302.4227242,
+    "battery_pct": 3.3,
+    "solar_charging": false,
+    "soil_moisture": 40.4
+  },
+  {
+    "node_id": "node_3",
+    "timestamp": 1781974302.445882,
+    "battery_pct": 77.4,
+    "solar_charging": false,
+    "soil_moisture": 23.4
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974302.445882,
+    "battery_pct": 3.1,
+    "solar_charging": false,
+    "soil_moisture": 39.7
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974302.445882,
+    "battery_pct": 89.1,
+    "solar_charging": true,
+    "soil_moisture": 28.1
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974302.445882,
+    "battery_pct": 92.0,
+    "solar_charging": true,
+    "temperature": 29.0,
+    "humidity": 52.2
+  },
+  {
+    "node_id": "node_9",
+    "timestamp": 1781974302.445882,
+    "battery_pct": 82.7,
+    "solar_charging": true,
+    "soil_moisture": 45.8
+  },
+  {
+    "node_id": "node_1",
+    "timestamp": 1781974305.4260728,
+    "battery_pct": 85.9,
+    "solar_charging": true,
+    "soil_moisture": 35.6
+  },
+  {
+    "node_id": "node_2",
+    "timestamp": 1781974305.4260728,
+    "battery_pct": 93.1,
+    "solar_charging": true,
+    "soil_moisture": 33.5
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974305.4260728,
+    "battery_pct": 95.5,
+    "solar_charging": true,
+    "soil_moisture": 33.9
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974305.4260728,
+    "battery_pct": 89.5,
+    "solar_charging": true,
+    "soil_moisture": 28.5
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974305.4260728,
+    "battery_pct": 92.2,
+    "solar_charging": true,
+    "temperature": 28.9,
+    "humidity": 51.7
+  },
+  {
+    "node_id": "node_1",
+    "timestamp": 1781974305.4493337,
+    "battery_pct": 86.0,
+    "solar_charging": true,
+    "soil_moisture": 35.0
+  },
+  {
+    "node_id": "node_3",
+    "timestamp": 1781974305.4493337,
+    "battery_pct": 77.3,
+    "solar_charging": false,
+    "soil_moisture": 22.7
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974305.4493337,
+    "battery_pct": 2.9,
+    "solar_charging": false,
+    "soil_moisture": 40.0
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974305.4493337,
+    "battery_pct": 95.7,
+    "solar_charging": true,
+    "soil_moisture": 34.5
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974305.4493337,
+    "battery_pct": 89.6,
+    "solar_charging": true,
+    "soil_moisture": 28.9
+  },
+  {
+    "node_id": "node_2",
+    "timestamp": 1781974308.4302194,
+    "battery_pct": 93.2,
+    "solar_charging": true,
+    "soil_moisture": 33.1
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974308.4302194,
+    "battery_pct": 2.7,
+    "solar_charging": false,
+    "soil_moisture": 39.4
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974308.4302194,
+    "battery_pct": 96.1,
+    "solar_charging": true,
+    "soil_moisture": 33.7
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974308.4302194,
+    "battery_pct": 90.0,
+    "solar_charging": true,
+    "soil_moisture": 29.3
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974308.4302194,
+    "battery_pct": 92.3,
+    "solar_charging": true,
+    "temperature": 29.1,
+    "humidity": 51.9
+  },
+  {
+    "node_id": "node_2",
+    "timestamp": 1781974308.4524918,
+    "battery_pct": 93.4,
+    "solar_charging": true,
+    "soil_moisture": 33.0
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974308.4524918,
+    "battery_pct": 92.7,
+    "solar_charging": true,
+    "temperature": 28.8,
+    "humidity": 51.5
+  },
+  {
+    "node_id": "node_1",
+    "timestamp": 1781974311.4334304,
+    "battery_pct": 86.3,
+    "solar_charging": true,
+    "soil_moisture": 34.6
+  },
+  {
+    "node_id": "node_2",
+    "timestamp": 1781974311.4334304,
+    "battery_pct": 93.6,
+    "solar_charging": true,
+    "soil_moisture": 33.8
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974311.4334304,
+    "battery_pct": 2.5,
+    "solar_charging": false,
+    "soil_moisture": 40.1
+  },
+  {
+    "node_id": "node_3",
+    "timestamp": 1781974311.456992,
+    "battery_pct": 77.1,
+    "solar_charging": false,
+    "soil_moisture": 22.5
+  },
+  {
+    "node_id": "node_4",
+    "timestamp": 1781974311.456992,
+    "battery_pct": 60.5,
+    "solar_charging": true,
+    "temperature": 28.6,
+    "humidity": 54.5
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974311.456992,
+    "battery_pct": 2.4,
+    "solar_charging": false,
+    "soil_moisture": 40.9
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974311.456992,
+    "battery_pct": 96.2,
+    "solar_charging": true,
+    "soil_moisture": 33.5
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974311.456992,
+    "battery_pct": 90.1,
+    "solar_charging": true,
+    "soil_moisture": 29.2
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974311.456992,
+    "battery_pct": 93.1,
+    "solar_charging": true,
+    "temperature": 28.8,
+    "humidity": 51.2
+  },
+  {
+    "node_id": "node_1",
+    "timestamp": 1781974313.5212834,
+    "battery_pct": 86.6,
+    "solar_charging": true,
+    "soil_moisture": 35.2
+  },
+  {
+    "node_id": "node_4",
+    "timestamp": 1781974313.5212834,
+    "battery_pct": 60.7,
+    "solar_charging": true,
+    "temperature": 28.8,
+    "humidity": 54.3
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974313.5212834,
+    "battery_pct": 2.1,
+    "solar_charging": false,
+    "soil_moisture": 40.8
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974313.5212834,
+    "battery_pct": 90.5,
+    "solar_charging": true,
+    "soil_moisture": 28.8
+  },
+  {
+    "node_id": "node_4",
+    "timestamp": 1781974313.5456998,
+    "battery_pct": 61.0,
+    "solar_charging": true,
+    "temperature": 28.8,
+    "humidity": 54.7
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974313.5456998,
+    "battery_pct": 1.9,
+    "solar_charging": false,
+    "soil_moisture": 40.9
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974313.5456998,
+    "battery_pct": 96.5,
+    "solar_charging": true,
+    "soil_moisture": 33.6
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974313.5456998,
+    "battery_pct": 90.8,
+    "solar_charging": true,
+    "soil_moisture": 29.6
+  },
+  {
+    "node_id": "node_1",
+    "timestamp": 1781974313.8390841,
+    "battery_pct": 86.8,
+    "solar_charging": true,
+    "soil_moisture": 34.5
+  },
+  {
+    "node_id": "node_2",
+    "timestamp": 1781974313.8390841,
+    "battery_pct": 93.8,
+    "solar_charging": true,
+    "soil_moisture": 33.6
+  },
+  {
+    "node_id": "node_5",
+    "timestamp": 1781974313.8390841,
+    "battery_pct": 1.6,
+    "solar_charging": false,
+    "soil_moisture": 40.9
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974313.8390841,
+    "battery_pct": 96.7,
+    "solar_charging": true,
+    "soil_moisture": 33.1
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974313.8390841,
+    "battery_pct": 93.3,
+    "solar_charging": true,
+    "temperature": 28.8,
+    "humidity": 50.7
+  },
+  {
+    "node_id": "node_1",
+    "timestamp": 1781974313.8627274,
+    "battery_pct": 87.0,
+    "solar_charging": true,
+    "soil_moisture": 34.9
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974313.8627274,
+    "battery_pct": 96.8,
+    "solar_charging": true,
+    "soil_moisture": 33.3
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974313.8627274,
+    "battery_pct": 91.1,
+    "solar_charging": true,
+    "soil_moisture": 29.6
+  },
+  {
+    "node_id": "node_9",
+    "timestamp": 1781974313.8627274,
+    "battery_pct": 82.8,
+    "solar_charging": true,
+    "soil_moisture": 46.6
+  },
+  {
+    "node_id": "node_6",
+    "timestamp": 1781974313.9002788,
+    "battery_pct": 97.1,
+    "solar_charging": true,
+    "soil_moisture": 33.1
+  },
+  {
+    "node_id": "node_7",
+    "timestamp": 1781974313.9002788,
+    "battery_pct": 91.4,
+    "solar_charging": true,
+    "soil_moisture": 30.3
+  },
+  {
+    "node_id": "node_8",
+    "timestamp": 1781974313.9002788,
+    "battery_pct": 93.6,
+    "solar_charging": true,
+    "temperature": 29.0,
+    "humidity": 51.0
+  }
+]

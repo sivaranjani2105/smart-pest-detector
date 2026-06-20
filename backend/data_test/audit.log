@@ -1,0 +1,4 @@
+[2026-06-20 22:21:12] IP: 127.0.0.1 | ENDPOINT: /api/v1/detect | DETAILS: SUCCESS - Detections: 1 (Pests: ['Locust (Schistocerca gregaria)']), Diseases: 1, Crop: Roma Tomato, Human: False
+[2026-06-20 22:21:12] IP: 127.0.0.1 | ENDPOINT: /api/v2/detect | DETAILS: SUCCESS - Detections: 1 (Pests: ['Locust (Schistocerca gregaria)']), Diseases: 1, Crop: Roma Tomato, Human: False
+[2026-06-20 22:21:53] IP: 127.0.0.1 | ENDPOINT: /api/v1/detect | DETAILS: SUCCESS - Detections: 1 (Pests: ['Locust (Schistocerca gregaria)']), Diseases: 1, Crop: Roma Tomato, Human: False
+[2026-06-20 22:21:53] IP: 127.0.0.1 | ENDPOINT: /api/v2/detect | DETAILS: SUCCESS - Detections: 1 (Pests: ['Locust (Schistocerca gregaria)']), Diseases: 1, Crop: Roma Tomato, Human: False

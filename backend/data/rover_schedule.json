@@ -1,0 +1,12 @@
+[
+  {
+    "time": "06:00",
+    "route_name": "Row 1-5 Scan",
+    "enabled": true
+  },
+  {
+    "time": "18:00",
+    "route_name": "Row 6-10 Scan",
+    "enabled": false
+  }
+]

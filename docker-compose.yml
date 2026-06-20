@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  # AI Vision and Sensing Layer (Flask Backend)
+  backend:
+    build: ./backend
+    container_name: smart_pest_detector_backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend/data:/app/data
+      # Mount cache for YOLO weights to avoid re-downloading on container rebuilds
+      - yolo_cache:/root/.ultralytics
+    environment:
+      - SENSOR_MODE=simulated
+      - BUZZER_PIN=18
+      - PM25_ALERT_THRESHOLD=50.0
+      - MQ135_ALERT_THRESHOLD=500.0
+      - YOLO_MODEL_PATH=yolo11n.pt
+      - YOLO_CONFIDENCE_THRESHOLD=0.4
+      - SIMULATE_PESTS=true
+      - OLLAMA_ENABLED=true
+      - OLLAMA_HOST=http://ollama:11434
+      - OLLAMA_MODEL=llama3.1
+      - PORT=5000
+    depends_on:
+      - ollama
+    restart: unless-stopped
+
+  # Application Layer Dashboard (React Frontend)
+  frontend:
+    build: ./frontend
+    container_name: smart_pest_detector_frontend
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_BACKEND_URL=http://localhost:5000
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  # Local LLM Service (Ollama Container)
+  ollama:
+    image: ollama/ollama:latest
+    container_name: smart_pest_detector_ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+
+volumes:
+  ollama_data:
+    driver: local
+  yolo_cache:
+    driver: local

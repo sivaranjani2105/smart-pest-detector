@@ -1,0 +1,39 @@
+# Virtual environments
+backend/venv/
+venv/
+.venv/
+ENV/
+env/
+
+# Node.js dependencies
+node_modules/
+frontend/node_modules/
+
+# IDE files and caches
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntuser
+
+# Python caches and compiles
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Databases and local state
+backend/data/*.db
+backend/data/*.log
+backend/data/*.json
+!backend/data/rover_schedule.json
+
+# YOLO weights and output runs
+*.pt
+*.onnx
+*.engine
+runs/
+backend/runs/
+backend/dataset/
