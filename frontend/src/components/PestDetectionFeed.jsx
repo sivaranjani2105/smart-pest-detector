@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Camera, CameraOff, RefreshCw, AlertCircle } from "lucide-react";
 
+const isDemoMode = window.location.hostname.includes("github.io") || window.location.hostname.includes("vercel.app") || import.meta.env.MODE === "production";
+
 export const PestDetectionFeed = ({ backendUrl, onDetection, activePestSetter, saliencyActive }) => {
   const videoRef = useRef(null);
   const canvasOverlayRef = useRef(null);
@@ -131,47 +133,88 @@ export const PestDetectionFeed = ({ backendUrl, onDetection, activePestSetter, s
         // Convert to low-quality JPEG to minimize base64 bandwidth
         dataUrl = hiddenCanvas.toDataURL("image/jpeg", 0.6);
         
-        const response = await fetch(`${backendUrl}/api/detect`, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ image: dataUrl }),
-        });
-
-        if (response.ok) {
-          const result = await response.json();
+        if (isDemoMode) {
+          // Simulate demo API response
+          await new Promise(resolve => setTimeout(resolve, 300));
+          const t = Date.now() / 1500;
+          const mockResult = {
+            quality_gate_failed: false,
+            person_in_frame: false,
+            detections: [
+              {
+                species: "whitefly",
+                confidence: 0.95,
+                track_id: "demo-1",
+                bbox: [
+                  0.4 + Math.sin(t) * 0.1, // x
+                  0.4 + Math.cos(t * 1.5) * 0.1, // y
+                  0.1, // w
+                  0.1 // h
+                ]
+              }
+            ],
+            diseases: []
+          };
           
-          if (result.quality_gate_failed) {
-            setQualityGateWarning(result.quality_gate_message);
-            setPersonInFrame(false);
-            clearOverlay();
-            setIsProcessing(false);
-            return;
-          } else {
-            setQualityGateWarning(null);
-          }
-
-          setPersonInFrame(!!result.person_in_frame);
+          setQualityGateWarning(null);
+          setPersonInFrame(false);
           
           const now = performance.now();
           setFps(Math.round(1000 / (now - lastFrameTimeRef.current)));
           lastFrameTimeRef.current = now;
           
-          // Draw bounding boxes & crop leaf diseases on overlay canvas
-          drawBoundingBoxes(result.detections, result.diseases);
+          drawBoundingBoxes(mockResult.detections, mockResult.diseases);
           
-          if (result.detections && result.detections.length > 0) {
-            // Filter out human from triggering advisory cards
-            const nonHumanPests = result.detections.filter(d => !d.species.toLowerCase().includes("human"));
-            if (nonHumanPests.length > 0) {
-              const firstPest = nonHumanPests[0];
-              activePestSetter(firstPest.species);
-              onDetection(result.detections);
-            }
+          if (mockResult.detections && mockResult.detections.length > 0) {
+            const firstPest = mockResult.detections[0];
+            activePestSetter(firstPest.species);
+            onDetection(mockResult.detections);
           }
           
           setIsOffline(false);
+        } else {
+          const response = await fetch(`${backendUrl}/api/detect`, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ image: dataUrl }),
+          });
+
+          if (response.ok) {
+            const result = await response.json();
+            
+            if (result.quality_gate_failed) {
+              setQualityGateWarning(result.quality_gate_message);
+              setPersonInFrame(false);
+              clearOverlay();
+              setIsProcessing(false);
+              return;
+            } else {
+              setQualityGateWarning(null);
+            }
+
+            setPersonInFrame(!!result.person_in_frame);
+            
+            const now = performance.now();
+            setFps(Math.round(1000 / (now - lastFrameTimeRef.current)));
+            lastFrameTimeRef.current = now;
+            
+            // Draw bounding boxes & crop leaf diseases on overlay canvas
+            drawBoundingBoxes(result.detections, result.diseases);
+            
+            if (result.detections && result.detections.length > 0) {
+              // Filter out human from triggering advisory cards
+              const nonHumanPests = result.detections.filter(d => !d.species.toLowerCase().includes("human"));
+              if (nonHumanPests.length > 0) {
+                const firstPest = nonHumanPests[0];
+                activePestSetter(firstPest.species);
+                onDetection(result.detections);
+              }
+            }
+            
+            setIsOffline(false);
+          }
         }
       } catch (err) {
         console.error("Frame inference error:", err);
